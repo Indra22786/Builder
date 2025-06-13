@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width ,initial-scale=1.0">
+    <title>Vetri Builders Website</title>
+    <link rel="stylesheet" href="css/contact.css">
+</head>
+
+<body>
+    <div class="header">
+        <div class="navbar">
+            <div class="logo">
+                <img src="Images/logo.png" alt="logo" width="80" height="50">
+
+                <h3>Vetri Builders</h3>
+            </div>
+            <nav>
+                <ul>
+                    <li><strong><a href="index.html">Home</a></strong></li>
+                    <li><strong><a href="aboutus.html">About us</a></strong></li>
+                    <li><strong><a href="services.html">services</a></strong></li>
+                    <li><strong><a href="project.html">Project</a></strong></li>
+                    <li><strong><a href="contact.html">Contact us</a></strong></li>
+                </ul>
+            </nav>
+            <div class="styled-button">
+                <button class="button">Enquiry Now</button>
+            </div>
+        </div>
+        <div class="content">
+            <h1>Contact Us</h1>
+        </div>
+    </div>
+    <div class="communication">
+        <div class="contenta">
+            <h2>Get In Touch With us</h2>
+            <div class="plaina"></div>
+            <h2>"For More Information About Our Product & Services</h2>
+        </div>
+        <section id="contact">
+
+            <div class="modulebox">
+                <div class="modbox1">
+                    <img src="Images/Location.png" alt="image">
+                    Address <br>236 5th Avenue,New york;<br>
+                    NYI0000,United States
+                    <br><br>
+                    <img src="Images/Call.png" alt="image">
+                    Phone:<br>Mobile:+(84)546-6789<br>Hotline:+(84)456-6789
+                    <br><br>
+                    <img src="Images/mingcute_time-fill.png" alt="image">
+                    Working Time<br>Monday-Friday : 9.00 - 22.00<br>Saturday-sunday : 9.00 - 21.00
+                </div>
+                <div class="mod2box">
+                    <h2>Your Name</h2><br>
+                    <div class="mod">ABC</div>
+                    <h2>EMail Address</h2><br>
+                    <div class="mod">ABC@def.com</div>
+                    <h2>Subject</h2><br>
+                    <div class="mod">This is an Optional.</div>
+                    <h2>Message</h2><br>
+                    <div class="mod">Hi! I'd like to ask about </div>
+                    <div class="sbutton"></div>
+                    <button>Submit</button>
+                </div>
+            </div>
+
+        </section>
+    </div>
+<div class="overlay" id="overlay"></div>
+  <div class="popup" id="popup">
+    <h2>Success!</h2>
+    <p>Your enquiry has been submitted successfully.</p>
+    <button onclick="closePopup()">OK</button>
+  </div>
+  <script>
+   
+    function showPopup() {
+      document.getElementById('popup').style.display = 'block';
+      document.getElementById('overlay').style.display = 'block';
+    }
+
+    
+    function closePopup() {
+      document.getElementById('popup').style.display = 'none';
+      document.getElementById('overlay').style.display = 'none';
+    }
+
+    
+    window.onload = function() {
+      setTimeout(showPopup, 1000); 
+    };
+  </script>
+
+
+
+    <section class="contact">
+        <div class="contacthead">
+            <img src="Images/logo.png" alt="logo" width="80">
+            <h1>Vetri Builders</h1>
+            <p>At Battery Builders,We specialize in constructing high-<br>
+                quality buildings that stand the test of time.Our<br>
+                experienced team works closely with clients to deliver<br>
+                projects that meet their needs and exceed their<br>
+                expectations. </p>
+        </div>
+        <div class="sidebar">
+            <h1>Subscribe</h1>
+            <input type="text" id="text" name="text" placeholder="Enter your email">
+            <button>Signup</button>
+        </div>
+    </section>
+    <section class="maincont">
+        <div class="col1">
+            <img src="Images/Mail.png" alt="img">
+            business@vetriit.com<br><br>
+            <img src="Images/Location.png" alt="image">
+            VTS & VIS,April's complex,shanthi complex, <br>Surandai<br><br>
+            <img src="Images/Call.png" alt="image">
+            8438558627 \ 84381 64287
+        </div>
+        <div class="col2">
+            <h3>Quick Links</h3>
+            <p>Home</p>
+            <p>Service</p>
+            <p>Contact</p>
+        </div>
+        <div class="col3">
+            <h3>More Help</h3>
+            <p>Team of Use</p>
+            <p>Privacy Policy</p>
+            <p>Contact Support</p>
+            <p>Career</p>
+        </div>
+    </section>
+    <section class="footer">
+        <div class="footera">
+            <p>@ 2025 developed and maintained by VETRI IT SYSTEMS Pvt LTD. All Rights Reserved </p>
+        </div>
+        <div class="footerimage">
+            <h3>Follow Us</h3>
+            <img src="Images/instagram.png" alt="image">
+            <img src="Images/Google.png" alt="image">
+            <img src="Images/facebook.png" alt="image">
+        </div>
+    </section>
+</body>
+
+</html>
